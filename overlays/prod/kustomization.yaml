@@ -1,0 +1,7 @@
+bases:
+  - ../../base
+resources:
+  - argocd-ingressroute.yaml
+  - argocd-headers.yaml
+patchesStrategicMerge:
+  - argocd-deployment.yaml
